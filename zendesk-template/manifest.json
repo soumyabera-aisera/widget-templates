@@ -1,9 +1,6 @@
 {
     "name": "Aisera Universal Widget",
-    "author": {
-        "name": "Widget-craft Team",
-        "email": "soumya.bera@aisera.com"
-    },
+    "author": { "name": "Widget-craft Team", "email": "soumya.bera@aisera.com" },
     "defaultLocale": "en",
     "private": true,
     "location": {
