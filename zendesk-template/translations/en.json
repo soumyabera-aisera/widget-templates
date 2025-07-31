@@ -1,0 +1,7 @@
+{
+  "app": {
+    "name": "Aisera Universal Widget",
+    "short_description": "A universal widget for demonstrating packaging.",
+    "long_description": "A universal widget created via a GitHub Actions pipeline."
+  }
+}
