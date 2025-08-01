@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
     <title>Aisera Universal Widget</title>
     <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
-    </head>
+</head>
 <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="universal-widget-app"></div>
+    <aisera-universal-widget></aisera-universal-widget>
+
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./aisera-universal-widget.js"></script>
+
+    <script>
+      const client = ZAFClient.init();
+      client.invoke('resize', { width: '100%', height: '200px' });
+    </script>
 </body>
 </html>
