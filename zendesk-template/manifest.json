@@ -10,7 +10,7 @@
     "location": {
         "support": {
             "ticket_sidebar": {
-                "url": "assets/build/index.html",
+                "url": "assets/index.html",
                 "flexible": true
             }
         }
