@@ -11,7 +11,7 @@
   "location": {
     "support": {
       "ticket_sidebar": {
-        "url": "assets/index.html"
+        "url": "assets/build/index.html"
       }
     }
   },
