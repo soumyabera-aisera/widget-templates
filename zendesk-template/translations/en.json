@@ -2,6 +2,29 @@
   "app": {
     "name": "Aisera Universal Widget",
     "short_description": "A universal widget for demonstrating packaging.",
-    "long_description": "A universal widget created via a GitHub Actions pipeline."
+    "long_description": "A universal widget created via a GitHub Actions pipeline.",
+    "installation_instructions": "1.  Click the Admin icon (**cog wheel**) in the sidebar, then select **Apps > Manage**.\n2.  When selecting app type, click **Marketplace.**\n3.  Browse the Marketplace for the  **Aisera Assist**  App.\n4.  You will now be redirected to the  **App details** page.\n5.  Fill up the form with the following information. This information will be provided by the Aisera Team prior to go-live.\n    * *Title*: Aisera Assist\n    * *Aisera URL*: Define the Aisera URL where Assist should establish communication with.\n    * *Aisera App Token*: The unique Aisera App token identifier provided by Aisera.\n    * *Custom Field IDs*: A comma separated list of Zendesk field IDs which Aisera Assist should use.\n    * *Aisera email*: Aisera account email.\n    * *Aisera password*: Aisera account password.\n6. Click **Install** at the bottom. If you are re-installing the app, you may see an **Update** button instead of an **Install** button.",
+    "parameters": {
+      "subdomain": {
+        "label": "Subdomain",
+        "helpText": "Define the Aisera Subdomain where Aisera Assist should establish communication with."
+      },
+      "usermail": {
+        "label": "Username",
+        "helpText": "The email ID of the Aisera user account."
+      },
+      "password": {
+        "label": "Password",
+        "helpText": "The corresponding password for the Aisera user account."
+      },
+      "widgetToken": {
+        "label": "Widget Token",
+        "helpText": "The unique Aisera Widget Token provided by Aisera."
+      },
+      "debugMode": {
+        "label": "Debug Mode",
+        "helpText": "Toggle to enable data visualization from mock data."
+      }
+    }
   }
 }
