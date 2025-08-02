@@ -1,20 +1,19 @@
 {
-    "name": "Aisera Universal Widget",
-    "author": {
-        "name": "Widget-Craft",
-        "email": "soumya.bera@aisera.com",
-        "url": "https://aisera.com"
-    },
-    "defaultLocale": "en",
-    "private": true,
-    "location": {
-        "support": {
-            "ticket_sidebar": {
-                "url": "assets/index.html",
-                "flexible": true
-            }
-        }
-    },
-    "version": "1.0.0",
-    "frameworkVersion": "2.0"
+  "name": "Aisera Universal Widget",
+  "author": {
+    "name": "Aisera",
+    "email": "support@aisera.com"
+  },
+  "defaultLocale": "en",
+  "private": false,
+  "version": "1.0.0",
+  "frameworkVersion": "2.0",
+  "location": {
+    "ticket_sidebar": "assets/index.html"
+  },
+  "assets": {
+    "assets/index.html": {},
+    "assets/logo.png": {},
+    "assets/logo-small.png": {}
+  }
 }
