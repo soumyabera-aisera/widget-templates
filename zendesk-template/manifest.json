@@ -9,7 +9,11 @@
   "version": "1.0.0",
   "frameworkVersion": "2.0",
   "location": {
-    "ticket_sidebar": "assets/index.html"
+    "support": {
+      "ticket_sidebar": {
+        "url": "assets/index.html"
+      }
+    }
   },
   "assets": {
     "assets/index.html": {},
